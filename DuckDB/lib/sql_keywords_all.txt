@@ -1,0 +1,124 @@
+Here is a list of commonly used MS SQL Server (T-SQL) keywords:
+
+Data Definition Language (DDL)
+ADD
+ALTER
+CREATE
+DROP
+TRUNCATE
+RENAME
+INDEX
+VIEW
+
+Data Manipulation Language (DML)
+SELECT
+INSERT
+UPDATE
+DELETE
+MERGE
+EXEC
+OUTPUT
+VALUES
+
+Data Control Language (DCL)
+GRANT
+REVOKE
+DENY
+
+Transaction Control Language (TCL)
+BEGIN TRANSACTION
+COMMIT
+ROLLBACK
+SAVE TRANSACTION
+Query Clauses
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+DISTINCT
+TOP
+OFFSET
+FETCH
+JOIN (INNER, LEFT, RIGHT, FULL)
+
+Logical Operators
+AND
+OR
+NOT
+BETWEEN
+IN
+EXISTS
+LIKE
+
+Aggregate Functions
+AVG
+COUNT
+SUM
+MIN
+MAX
+
+Other Functions
+GETDATE()
+NEWID()
+CONVERT()
+CAST()
+ISNULL()
+COALESCE()
+LEN()
+SUBSTRING()
+
+System Stored Procedures
+sp_help
+sp_executesql
+sp_rename
+
+System Functions
+@@IDENTITY
+@@ERROR
+@@ROWCOUNT
+
+Control-of-Flow Keywords
+BEGIN
+END
+IF
+ELSE
+WHILE
+BREAK
+CONTINUE
+RETURN
+WAITFOR
+
+Joins and Set Operators
+UNION
+INTERSECT
+EXCEPT
+CROSS JOIN
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+FULL JOIN
+
+Security and Roles
+CREATE LOGIN
+CREATE USER
+ALTER ROLE
+DROP LOGIN
+DROP USER
+
+Miscellaneous Keywords
+PRINT
+USE
+GO
+RAISERROR
+TRY
+CATCH
+
+
+This list includes most of the important T-SQL keywords and functions commonly used in MS SQL Server. Keep in mind that there are additional commands and system functions specific to SQL Server that may not be as commonly used.
+
+
+
+
+
+

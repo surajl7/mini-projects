@@ -1,0 +1,64 @@
+# Data Manipulation Language (DML)
+
+SELECT
+INSERT
+UPDATE
+DELETE
+MERGE
+EXEC
+OUTPUT
+VALUES
+
+
+# Data Definition Language (DDL)
+
+ADD
+ALTER
+CREATE
+DROP
+TRUNCATE
+RENAME
+INDEX
+VIEW
+
+
+# Transaction Control Language (TCL)
+
+BEGIN TRANSACTION
+COMMIT
+ROLLBACK
+SAVE TRANSACTION
+
+
+# Query Clauses
+
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+DISTINCT
+TOP
+OFFSET
+FETCH
+JOIN (INNER, LEFT, RIGHT, FULL)
+
+
+# Logical Operators
+
+AND
+OR
+NOT
+BETWEEN
+IN
+EXISTS
+LIKE
+
+
+# Aggregate Functions
+
+AVG
+COUNT
+SUM
+MIN
+MAX
