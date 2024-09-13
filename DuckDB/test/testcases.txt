@@ -1,0 +1,45 @@
+SELECT
+    e1.employee_name AS employee,
+    e2.employee_name AS manager
+FROM
+    employee e1
+LEFT JOIN
+    employee e2
+ON
+    e1.manager_id = e2.employee_id;
+
+
+
+SELECT
+    e1.employee_name AS employee,
+    e2.employee_name AS manager
+FROM
+    EMPLOYEE e1
+LEFT JOIN
+    EMPLOYEE e2
+ON
+    e1.manager_id = e2.employee_id;
+
+
+
+SELECT     
+	e1.employee_name AS employee,     
+	e2.employee_name AS manager 
+FROM 'C:\MYDATA\TRAINING\MiniProjects\DuckDB\inbox\\employee.csv' e1      
+LEFT JOIN 'C:\MYDATA\TRAINING\MiniProjects\DuckDB\inbox\\employee.csv' e2 ON e1.manager_id = e2.employee_id;
+
+
+
+
+
+SELECT e1.employee_name, e2.employee_name 
+FROM employee e1 
+JOIN sample_data d 
+ON e1.department_id = d.department_id;
+
+
+
+
+
+
+

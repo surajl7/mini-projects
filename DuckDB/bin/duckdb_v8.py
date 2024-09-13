@@ -40,9 +40,9 @@ def SQL_COMPONENTS(query):
     else:
         CLAUSE_WHERE = ""  # No WHERE clause
 
-    # print(f"SELECT ITEMS: {CLAUSE_SELECT}")
-    # print(f"TABLE NAME: {TABLE_NAME}")
-    # print(f"WHERE CLAUSE: {CLAUSE_WHERE}")
+    print(f"SELECT ITEMS: {CLAUSE_SELECT}")
+    print(f"TABLE NAME: {TABLE_NAME}")
+    print(f"WHERE CLAUSE: {CLAUSE_WHERE}")
 
     return CLAUSE_SELECT, TABLE_NAME, CLAUSE_WHERE
 
@@ -67,6 +67,7 @@ TABLE_NAME_CSV = "'" + INPUT_FILE_PATH + TABLE_NAME + ".csv" + "'"
 # Construct the query to run in DuckDB
 SQL_QUERY_DB = (CLAUSE_SELECT + TABLE_NAME_CSV + CLAUSE_WHERE)
 
+# print(SQL_QUERY_DB)
 # -----------------------------------------------------------------------------------
 
 # Execute the query in DuckDB
